@@ -1,0 +1,92 @@
+*{
+	box-sizing: border-box;
+}
+body { 
+        background-color:#58595B;
+
+      }
+
+#wrapper { width: 80%;
+           margin-left: auto;
+           margin-right: auto;
+           background-color: #EAEAEA;
+       }
+
+header{
+      width: 100%;
+      height: 90px;
+      color: #000000;
+      text-align: center;
+      font-weight: bold;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSllrjnsUziEfbpvuTvdV5yIfeFcOWQvvJfg&usqp=CAU);
+
+}
+nav{
+     width: 100%;
+     height: 90px;
+     background-color:#48AAAD;
+     color:#ffffff;
+     text-align: center;
+
+}
+.column1 {
+	background-color: #E2FFFF;
+	border: 1px solid black;
+	float:left;
+	width: 50%;
+	height: 300px;
+	margin-top: 10px;
+	}
+.column2 {
+	background-color: #E2FFFF;
+	border: 1px solid black;
+	float: right;
+	width: 50%;
+	height: 300px;
+	margin-top: 10px;
+	}
+	h4{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+row:after{
+	content:"";
+	display: table;
+	clear:both;
+	gap: 10px;
+}
+main{
+	display: inline-block;
+	background-color:#48AAAD;
+	 margin-top: 10px;
+
+}
+ main >h5,p{
+ color: #000000; 
+ font-family: Arial; 
+ font-size: 12px;
+ font-weight: bold; 
+ margin-block: 35px;
+}
+main > h5{
+	 color: #000000; 
+        font-family: Arial; 
+       font-size: 14px;
+       font-weight: bold;
+
+}
+
+main p a:hover{
+	color: #ffffff;
+	transition: all 0.4s ease 0s;
+}
+main h5 a:hover{
+	color: #ffffff;
+	transition: all 0.4s ease 0s;
+}
+footer{
+	 width: 100%;
+        display:block; 
+        padding:3px; 
+}
